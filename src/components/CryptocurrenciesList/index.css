@@ -1,0 +1,44 @@
+/* Write your CSS code here */
+
+.currencies-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  background-color: #092e33;
+  color: #ffffff;
+  padding: 7px;
+}
+.conversion-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40%;
+}
+.cryptocurrency-tracker-heading {
+  color: #00e7ff;
+  font-size: 35px;
+  font-family: 'Roboto';
+  text-align: center;
+  padding: 10px;
+}
+.cryptocurrency-bg-image {
+  height: 15vw;
+  width: 90vw;
+}
+.currencies-container {
+  height: 40vh;
+  width: 70vw;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #00e7ff;
+  border-radius: 5px;
+}
+.header-heading {
+  font-size: 20px;
+  padding: 7px;
+  width: 26%;
+  text-align: center;
+}
