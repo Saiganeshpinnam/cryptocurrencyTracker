@@ -55,6 +55,7 @@ class CryptocurrenciesList extends Component {
               <h1 className="header-heading">EURO</h1>
             </div>
           </div>
+
           {currenciesList.map(eachCurrency => (
             <CryptocurrencyItem
               currencyData={eachCurrency}

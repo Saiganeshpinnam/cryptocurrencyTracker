@@ -25,19 +25,54 @@
 }
 
 .currency-logo {
-  height: 30px;
-  width: 30px;
+  height: 20px;
+  width: 20px;
 }
 .currency-name {
   color: #ffffff;
-  font-size: 17px;
+  font-size: 10px;
   font-family: 'Roboto';
   text-align: center;
   width: 20%;
+  padding: 3px;
 }
 .currency-value {
   color: #ffffff;
-  font-size: 16px;
+  font-size: 9px;
   font-family: 'Roboto';
-  width: 16%;
+   width: 35%;
+}
+
+@media screen and (min-width: 768px) {
+  /* Write your CSS code here */
+
+  .currency-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .currency-name-container {
+    width: 40%;
+  }
+  .currency-converter-container {
+    width: 40%;
+    padding: 7px;
+  }
+
+  .currency-logo {
+    height: 35px;
+    width: 35px;
+  }
+  .currency-name {
+    font-size: 19px;
+    width: 20%;
+    text-align: center;
+    padding: 3px;
+  }
+  .currency-value {
+    font-size: 18px;
+    width: 35%;
+  }
 }
