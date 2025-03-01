@@ -9,7 +9,7 @@ class CryptocurrencyItem extends Component {
     const {currencyData} = this.props
     const {currencyName, usdValue, euroValue, currencyLogo} = currencyData
     return (
-      <div className="currency-info-container">
+      <li className="currency-info-container">
         <div className="currency-name-container">
           <img
             src={currencyLogo}
@@ -22,7 +22,7 @@ class CryptocurrencyItem extends Component {
           <p className="currency-value">{usdValue}</p>
           <p className="currency-value">{euroValue}</p>
         </div>
-      </div>
+      </li>
     )
   }
 }
